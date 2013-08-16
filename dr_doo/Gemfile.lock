@@ -182,11 +182,8 @@ PLATFORMS
 DEPENDENCIES
   capybara
   coffee-rails (~> 3.2.1)
-<<<<<<< HEAD
   faker
-=======
   guard-rspec
->>>>>>> master
   jquery-rails
   launchy
   rails (= 3.2.13)

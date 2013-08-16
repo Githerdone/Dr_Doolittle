@@ -1,0 +1,88 @@
+{
+  "RSpec": {
+    "coverage": {
+      "/Users/apprentice/Desktop/dr_doo/dr_doo/app/controllers/application_controller.rb": [
+        1,
+        1,
+        null
+      ],
+      "/Users/apprentice/Desktop/dr_doo/dr_doo/app/helpers/application_helper.rb": [
+        1,
+        null
+      ],
+      "/Users/apprentice/Desktop/dr_doo/dr_doo/app/models/booleananswer.rb": [
+        1,
+        1,
+        1,
+        null,
+        null
+      ],
+      "/Users/apprentice/Desktop/dr_doo/dr_doo/app/models/dateanswer.rb": [
+        1,
+        1,
+        1,
+        null,
+        null
+      ],
+      "/Users/apprentice/Desktop/dr_doo/dr_doo/app/models/field.rb": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        null,
+        null
+      ],
+      "/Users/apprentice/Desktop/dr_doo/dr_doo/app/models/form.rb": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        null,
+        null
+      ],
+      "/Users/apprentice/Desktop/dr_doo/dr_doo/app/models/integeranswer.rb": [
+        1,
+        1,
+        1,
+        null,
+        null
+      ],
+      "/Users/apprentice/Desktop/dr_doo/dr_doo/app/models/label.rb": [
+        1,
+        1,
+        1,
+        1,
+        null,
+        null
+      ],
+      "/Users/apprentice/Desktop/dr_doo/dr_doo/app/models/provider.rb": [
+        1,
+        1,
+        null,
+        null
+      ],
+      "/Users/apprentice/Desktop/dr_doo/dr_doo/app/models/stringanswer.rb": [
+        1,
+        1,
+        1,
+        null,
+        null
+      ],
+      "/Users/apprentice/Desktop/dr_doo/dr_doo/app/models/user.rb": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        null,
+        null
+      ]
+    },
+    "timestamp": 1376620215
+  }
+}
