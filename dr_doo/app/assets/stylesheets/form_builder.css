@@ -39,3 +39,39 @@ input {
   border-radius: 6px;
   float: right;
 }
+
+.field {
+  margin: 5px;
+  display: inline-block;
+}
+
+.name {
+  width: 220px;
+  height: 20px;
+  background-color: blue;
+}
+
+.address {
+  width: 420px;
+  height: 20px;
+  background-color: yellow;
+}
+
+.age {
+  width: 100px;
+  height: 20px;
+  background-color: red;
+}
+
+.block {
+  width: 120px;
+  height: 20px;
+  background-color: orange;
+}
+
+#containter-left {
+  width: 74%;
+  height: 1000px;
+  background-color: #B8B8B8;
+  display: inline-block;
+}
