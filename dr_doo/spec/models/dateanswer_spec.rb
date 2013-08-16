@@ -3,18 +3,21 @@ require 'spec_helper'
 describe Dateanswer do
 
   let(:user) { User.new }
+  let(:field) { Field.new }
 
   context "#new" do
-    it "allows mass-assignment of value" do
+    it "allows mass-assignment on value" do
       expect{ Dateanswer.new(value: Date.today) }.not_to raise_error
     end
 
-    it "allows mass-assignment of field_id" do
+    it "allows mass-assignment on field_id" do
       expect{ Dateanswer.new(field_id: 1) }.not_to raise_error
+      expect{ Dateanswer.new(field) }.not_to raise_error
     end
 
-    it "doesn't allow mass-assignment of user_id" do
+    it "doesn't allow mass-assignment on user_id" do
       expect{ Dateanswer.new(user_id: 1) }.to raise_error
+      expect{ Dateanswer.new(user) }.to raise_error
     end
 
     it { should respond_to(:value) }
