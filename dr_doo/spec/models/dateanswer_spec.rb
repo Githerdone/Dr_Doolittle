@@ -3,20 +3,6 @@ require 'spec_helper'
 describe Dateanswer do
 
   let(:user) { User.new }
-<<<<<<< HEAD
-
-  context "#new" do
-    it "allows mass-assignment of value" do
-      expect{ Dateanswer.new(value: Date.today) }.not_to raise_error
-    end
-
-    it "allows mass-assignment of field_id" do
-      expect{ Dateanswer.new(field_id: 1) }.not_to raise_error
-    end
-
-    it "doesn't allow mass-assignment of user_id" do
-      expect{ Dateanswer.new(user_id: 1) }.to raise_error
-=======
   let(:field) { Field.new }
 
   context "#new" do
@@ -32,7 +18,6 @@ describe Dateanswer do
     it "doesn't allow mass-assignment on user_id" do
       expect{ Dateanswer.new(user_id: 1) }.to raise_error
       expect{ Dateanswer.new(user) }.to raise_error
->>>>>>> create_model_unit_tests
     end
 
     it { should respond_to(:value) }

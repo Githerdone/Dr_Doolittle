@@ -1,18 +1,6 @@
 require 'spec_helper'
 
 describe Integeranswer do
-<<<<<<< HEAD
-  context "#new" do
-    it "has a test" do
-      # test
-    end
-  end
-
-  context "#save" do
-    it "has a test" do
-      # test
-    end
-=======
 
   let(:user) { User.new }
 
@@ -52,5 +40,4 @@ describe Integeranswer do
       expect(int_ans).not_to be_valid
     end
   end
->>>>>>> create_model_unit_tests
 end

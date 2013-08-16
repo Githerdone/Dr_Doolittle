@@ -1,20 +1,9 @@
 require 'spec_helper'
 
 describe Stringanswer do
-<<<<<<< HEAD
-  context "#new" do
-    it "has a test" do
-      # test
-    end
-  end
-
-  context "#save" do
-    it "has a test" do
-      # test
-    end
-=======
 
   let(:user) { User.new }
+  
   context "#new" do
     it "allows mass-assignment on value" do
       expect{ Stringanswer.new(value: "Island Foxes") }.not_to raise_error
@@ -51,5 +40,4 @@ describe Stringanswer do
       expect(str_ans).not_to be_valid
     end
   end
->>>>>>> create_model_unit_tests
 end
