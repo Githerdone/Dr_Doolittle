@@ -37,7 +37,7 @@ describe Label do
 
     it "requires a valid field_id" do
       label = form.labels.new(name: "Name")
-      expect(label)not_to be_valid
+      expect(label).not_to be_valid
     end
   end
 end

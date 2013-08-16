@@ -11,4 +11,5 @@ describe User do
     it "has a test" do
       # test
     end
+  end
 end

@@ -32,7 +32,10 @@ group :test, :development do
   gem 'selenium-webdriver'
   gem 'ruby_gntp'
   gem 'launchy'
+  gem 'factory_girl_rails'
 end
+
+gem 'pry-rails', :group => :development
 
 gem 'simplecov', :require => false, :group => :test
 

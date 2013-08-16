@@ -9,7 +9,7 @@ describe Booleananswer do
       expect{ Booleananswer.new(value: true) }.not_to raise_error
     end
 
-    it "should not allow mass-assignment on user_id"
+    it "should not allow mass-assignment on user_id" do
       expect{ Booleananswer.new(user_id: 1) }.to raise_error
       expect{ Booleananswer.new(user_id: user) }.to raise_error
     end
