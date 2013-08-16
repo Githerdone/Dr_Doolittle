@@ -201,6 +201,7 @@ DEPENDENCIES
   factory_girl_rails
   faker
   gridster-rails (~> 0.1.0.1)
+  faker
   guard-rspec
   jquery-rails
   jquery-ui-rails
