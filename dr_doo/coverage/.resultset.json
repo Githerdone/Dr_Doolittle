@@ -1,0 +1,168 @@
+{
+  "RSpec": {
+    "coverage": {
+      "/Users/njayanty/Documents/Dr_Doolittle/dr_doo/app/controllers/application_controller.rb": [
+        1,
+        1,
+        null
+      ],
+      "/Users/njayanty/Documents/Dr_Doolittle/dr_doo/app/helpers/application_helper.rb": [
+        1,
+        null
+      ],
+      "/Users/njayanty/Documents/Dr_Doolittle/dr_doo/app/models/booleananswer.rb": [
+        1,
+        1,
+        1,
+        null,
+        null
+      ],
+      "/Users/njayanty/Documents/Dr_Doolittle/dr_doo/app/models/dateanswer.rb": [
+        1,
+        1,
+        1,
+        null,
+        null
+      ],
+      "/Users/njayanty/Documents/Dr_Doolittle/dr_doo/app/models/field.rb": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        null,
+        null
+      ],
+      "/Users/njayanty/Documents/Dr_Doolittle/dr_doo/app/models/form.rb": [
+        1,
+        1,
+        1,
+        1,
+        null,
+        null
+      ],
+      "/Users/njayanty/Documents/Dr_Doolittle/dr_doo/app/models/formfields.rb": [
+        1,
+        1,
+        1,
+        null,
+        null
+      ],
+      "/Users/njayanty/Documents/Dr_Doolittle/dr_doo/app/models/integeranswer.rb": [
+        1,
+        1,
+        1,
+        null,
+        null
+      ],
+      "/Users/njayanty/Documents/Dr_Doolittle/dr_doo/app/models/provider.rb": [
+        1,
+        1,
+        null,
+        null
+      ],
+      "/Users/njayanty/Documents/Dr_Doolittle/dr_doo/app/models/stringanswer.rb": [
+        1,
+        1,
+        1,
+        null,
+        null
+      ],
+      "/Users/njayanty/Documents/Dr_Doolittle/dr_doo/app/models/user.rb": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        null,
+        null
+      ]
+    },
+    "timestamp": 1376617562
+  },
+  "Cucumber Features": {
+    "coverage": {
+      "/Users/njayanty/Documents/Dr_Doolittle/dr_doo/app/controllers/application_controller.rb": [
+        1,
+        1,
+        null
+      ],
+      "/Users/njayanty/Documents/Dr_Doolittle/dr_doo/app/helpers/application_helper.rb": [
+        1,
+        null
+      ],
+      "/Users/njayanty/Documents/Dr_Doolittle/dr_doo/app/models/booleananswer.rb": [
+        1,
+        1,
+        1,
+        null,
+        null
+      ],
+      "/Users/njayanty/Documents/Dr_Doolittle/dr_doo/app/models/dateanswer.rb": [
+        1,
+        1,
+        1,
+        null,
+        null
+      ],
+      "/Users/njayanty/Documents/Dr_Doolittle/dr_doo/app/models/field.rb": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        null,
+        null
+      ],
+      "/Users/njayanty/Documents/Dr_Doolittle/dr_doo/app/models/form.rb": [
+        1,
+        1,
+        1,
+        1,
+        null,
+        null
+      ],
+      "/Users/njayanty/Documents/Dr_Doolittle/dr_doo/app/models/formfields.rb": [
+        1,
+        1,
+        1,
+        null,
+        null
+      ],
+      "/Users/njayanty/Documents/Dr_Doolittle/dr_doo/app/models/integeranswer.rb": [
+        1,
+        1,
+        1,
+        null,
+        null
+      ],
+      "/Users/njayanty/Documents/Dr_Doolittle/dr_doo/app/models/provider.rb": [
+        1,
+        1,
+        null,
+        null
+      ],
+      "/Users/njayanty/Documents/Dr_Doolittle/dr_doo/app/models/stringanswer.rb": [
+        1,
+        1,
+        1,
+        null,
+        null
+      ],
+      "/Users/njayanty/Documents/Dr_Doolittle/dr_doo/app/models/user.rb": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        null,
+        null
+      ]
+    },
+    "timestamp": 1376617454
+  }
+}
