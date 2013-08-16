@@ -25,11 +25,17 @@ list-style-type: none;
 
 ul li {
   background-color: blue;
-  height: 50px !important;
+  height: 30px !important;
+  width: 620px !important;
   border-radius: 5px;
+  padding-top: 3px;
+  color: white;
+  text-align: center;
+  vertical-align: text-middle;
 }
 
 input {
   height: 20px;
   border-radius: 6px;
+  float: right;
 }
