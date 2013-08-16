@@ -11,4 +11,8 @@ describe User do
     it "has a test" do
       # test
     end
+<<<<<<< HEAD
+=======
+  end
+>>>>>>> create_model_unit_tests
 end
