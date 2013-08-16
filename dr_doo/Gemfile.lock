@@ -58,6 +58,8 @@ GEM
     factory_girl_rails (4.2.1)
       factory_girl (~> 4.2.0)
       railties (>= 3.0.0)
+    faker (1.2.0)
+      i18n (~> 0.5)
     ffi (1.9.0)
     formatador (0.2.4)
     guard (1.8.2)
@@ -190,9 +192,16 @@ PLATFORMS
 DEPENDENCIES
   capybara
   coffee-rails (~> 3.2.1)
+<<<<<<< HEAD
   database_cleaner
   factory_girl_rails
+=======
+<<<<<<< HEAD
+  faker
+=======
+>>>>>>> 4cfadcd41854fd224b0bf9b4fca4d6df3981fc49
   guard-rspec
+>>>>>>> master
   jquery-rails
   launchy
   pry-rails

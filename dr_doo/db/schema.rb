@@ -31,17 +31,9 @@ ActiveRecord::Schema.define(:version => 20130815232111) do
 
   create_table "fields", :force => true do |t|
     t.string   "default_label"
-    t.string   "type"
+    t.string   "field_type"
     t.datetime "created_at",    :null => false
     t.datetime "updated_at",    :null => false
-  end
-
-  create_table "formfields", :force => true do |t|
-    t.integer  "form_id"
-    t.integer  "field_id"
-    t.string   "label"
-    t.datetime "created_at", :null => false
-    t.datetime "updated_at", :null => false
   end
 
   create_table "forms", :force => true do |t|
@@ -55,6 +47,14 @@ ActiveRecord::Schema.define(:version => 20130815232111) do
     t.integer  "user_id"
     t.integer  "field_id"
     t.integer  "value"
+    t.datetime "created_at", :null => false
+    t.datetime "updated_at", :null => false
+  end
+
+  create_table "labels", :force => true do |t|
+    t.integer  "form_id"
+    t.integer  "field_id"
+    t.string   "name"
     t.datetime "created_at", :null => false
     t.datetime "updated_at", :null => false
   end
